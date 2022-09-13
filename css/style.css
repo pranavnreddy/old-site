@@ -231,7 +231,7 @@ header {
 }
 
 .nav__link:hover {
-    color: var(--clr-accent);
+    color: var(--clr-dark-accent);
 }
 
 .nav-toggle {
@@ -258,7 +258,7 @@ header {
 }
 
 .nav-open .hamburger::before {
-    transform: rotate(90deg) translateX(-6px);
+    transform: rotate(90deg);
 }
 
 .nav-open .hamburger::after {
@@ -273,12 +273,13 @@ header {
 .hamburger {
     display: block;
     position: relative;
+    z-index: 100000;
 }
 
 .hamburger,
 .hamburger::before,
 .hamburger::after {
-    background: var(--clr-accent);
+    background: var(--clr-dark-accent);
     width: 2em;
     height: 3px;
     border-radius: 1em;
