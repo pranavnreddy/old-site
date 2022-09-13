@@ -282,11 +282,6 @@ header {
     opacity: 0;
 }
 
-
-
-
-
-
 .hamburger {
     display: block;
     position: relative;
@@ -334,6 +329,7 @@ header {
 .section__subtitle--intro {
     max-width: 100%;
     display: inline-block;
+    white-space: nowrap;
 }
 
 @media (min-width: 600px) {
